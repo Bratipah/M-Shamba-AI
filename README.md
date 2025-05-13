@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 
 **Solving Kenya’s $1.2B middlemen exploitation crisis with WhatsApp-based AI agents and on-chain commerce.**  
-→ **Demo Video** | → **Whitepaper** | → **Join Pilot**  
+
 
 ---
 
