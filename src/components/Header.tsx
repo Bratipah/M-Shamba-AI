@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '@mantine/core';
-import { ChevronRight, Menu, X } from 'lucide-react';
+import { ChevronRight, Menu, X, Link } from 'lucide-react';
+
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return <header className="bg-white shadow-sm sticky top-0 z-50">
