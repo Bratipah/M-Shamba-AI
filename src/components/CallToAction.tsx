@@ -14,8 +14,8 @@ export function CallToAction() {
             needed!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-            <Button size="lg" variant="filled" color="yellow" className="bg-yellow-500 hover:bg-yellow-600 text-green-900 font-bold" rightSection={<Send size={16} />}>
-              Dial *483*1# Now
+            <Button component="a"  href="https://m-shamba-ai-ussd-bxvg.vercel.app/" size="lg" variant="filled" color="yellow" className="bg-yellow-500 hover:bg-yellow-600 text-green-900 font-bold" rightSection={<Send size={16} />}>
+              Dial *384*8084# Now
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
               Call Our Support Team

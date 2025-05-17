@@ -20,9 +20,11 @@ export function Hero() {
               any basic phone!
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Link href="https://m-shamba-ai-ussd-bxvg.vercel.app/" color="yellow" className="bg-yellow-500 hover:bg-yellow-600 text-green-900 font-bold" rightSection={<ChevronRight size={16} />}>
-                Dial *384*8084# to Start
-              </Link>
+              
+            <Button component="a"  href="https://m-shamba-ai-ussd-bxvg.vercel.app/" size="lg" variant="filled" color="yellow" className="bg-yellow-500 hover:bg-yellow-600 text-green-900 font-bold" rightSection={<ChevronRight size={16} />}>
+              Dial *384*8084# to Start
+            </Button>
+
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                 Learn More
               </Button>
