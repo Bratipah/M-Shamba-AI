@@ -16,13 +16,13 @@ export function Hero() {
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-green-100">
               M-Shamba AI connects farmers directly to buyers through a simple
-              USSD menu (*483*1#). No smartphone or internet needed - works on
+              USSD menu (*384*8084#). No smartphone or internet needed - works on
               any basic phone!
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" variant="filled" color="yellow" className="bg-yellow-500 hover:bg-yellow-600 text-green-900 font-bold" rightSection={<ChevronRight size={16} />}>
-                Dial *483*1# to Start
-              </Button>
+              <Link href="https://m-shamba-ai-ussd-bxvg.vercel.app/" color="yellow" className="bg-yellow-500 hover:bg-yellow-600 text-green-900 font-bold" rightSection={<ChevronRight size={16} />}>
+                Dial *384*8084# to Start
+              </Link>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                 Learn More
               </Button>
